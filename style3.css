@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: url(Panthère/arrière_plan.png); 
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: 100%; 
+     animation: fadein 5s ease-in-out forwards;
+    
+ }
+ 
+ 
+ @keyframes fadein {
+    from{opacity: 0;
+    transform: translateX(-100%);
+}
+to{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+ }
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    
+}
+#MARVEL {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder; 
+    font{src: url(https://fonts.google.com/specimen/Panthera),
+        font-family Panthera;}
+}
+#menu {
+    position: relative;
+    left:  600px;
+    text-decoration: none;
+    font-family: BEYNO;
+    padding: 35px;
+    color: #FFFFFF;
+}
+#ac1{
+    position: relative;
+    left:  600px;
+    font-family: BEYNO;
+    padding: 35px;
+    color: #FFFFFF;
+}
+
+#menu:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#ac1:hover{
+    text-decoration: underline;
+}
+#ac1:visited{
+    color: #DF99F2;
+    text-decoration: underline;
+}
+
+#WAKANDA{
+    position: relative;
+    right: -50px;
+    bottom: 50px;
+    width: 100%;
+    height: 100vh;
+    background:url(Panthère/Pantherwakanda1.png);
+    background-position: right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    
+}
+.content{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+h1{
+    color: #9E91B7;
+    letter-spacing: 3px;
+    font-family: 'Panthera', sans-serif;
+    font-size: 36px;
+}
+strong{
+    color: #9E91B7;
+    font-family: Wakanda forever;
+    letter-spacing: 3px;
+}
+P{
+    position: relative;
+    top: 25px;
+    color: #FFFFFF;
+    font-family: Cantarell;
+    font-size: 8px;
+    font-size: smaller;
+}
+#content1{
+    background-image: url(Panthère/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: FIXED;
+    background-color: transparent;
+}
+
+h2{
+    color: #9E91B7;
+    font-size: 32px;
+    font-weight: bold;
+}
+.PARA1{
+    position: relative;
+    left: 10px;
+    width: 500px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+}
+.PARA2{
+    position: relative;
+    float: right;
+    right: 100px;
+    bottom: 580px;
+    width: 500px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+}
+.PARA3{
+    position: relative;
+    float: right;
+    right: -520px;
+    bottom: 385px;
+    width: 500px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+}
+.PARA4{
+    position: relative;
+    float: right;
+    bottom: 465px;
+    right: 100px;
+    width: 500px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+}
+.PARA5{
+    position: relative;
+    left: 70px;
+    width: 500px;
+    height: 165px;
+    text-align: center;
+    border: 1px solid #3D2DA6;
+    background: #3D2DA6;
+}
+#SITE{
+    position: relative;
+    bottom: 310px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+} 
+.PARA6{
+    position: relative;
+    left: 10px;
+    bottom: 150px;
+    width: 500px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+}
+h5{
+    color: #DF99F2;
+    
+}
+.PARA7{
+    position: relative;
+    float: right;
+    right: 150px;
+    bottom: 850px;
+    width: 500px;
+}
+.PARA8{
+    position: relative;
+    float: right;
+    right: -400px;
+    bottom: 620px;
+    width: 500px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+}
+footer{
+    position: relative;
+    background-image: url(Panthère/back_footer.png);
+    background-size: 100% 100%;      
+}
+#P1{
+    position: relative;
+    height: 80vh;
+    background-image: url(Panthère/back_footer.png);
+    background-size: 100% 100%;
+}
+
+#footer1{
+    position: relative;
+    top: 100px;
+    left: 270px;
+    bottom: 350px;
+    z-index: 3; 
+}
+#footer1p1{
+    position: relative;
+    bottom: 350px;
+    left: 270px;
+    z-index: 3;
+}
+
+#fait{
+    position: relative;
+    top: -70px;
+    z-index: 2;
+    bottom: 520px;
+    left: 320px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#faitp1{
+    position: relative;
+    bottom: 520px;
+    left: 320px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.PAGE{
+    top: -180px;
+    position: relative;
+    left: 600px;
+    bottom: 650px;
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+.PAGEp1{
+    position: relative;
+    bottom: 630px;
+    left: 600px;
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+#PRO{
+    text-transform: capitalize;
+}
+.icon01{
+    top: -269px;
+    position: relative;
+    left: 850px;
+    bottom: -700px;
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+.iconp1{
+    position: relative;
+    bottom: 710px;
+    left: 850px;
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+#icon_facebook{
+    background: #F2CEF2;
+    border: 1px solid #F2CEF2;
+    border-radius: 20px;
+    color: #DF99F2;
+    margin-right: 15px;
+}
+#icon_instagram{
+    background: #DF99F2;
+    border: 1px solid #DF99F2;
+    border-radius: 20px;
+    color: #DF99F2;
+    margin-right: 15px;
+}
+#footer5{
+    margin-right: 15px;
+}
+.FOO{
+    top: -180px;
+    position: relative;
+    left: 600px;
+    color: #FFFFFF;
+    bottom: 600px;
+}
+.FOOp1{
+    position: relative;
+    bottom: 600px;
+    left: 600px;
+    color: #FFFFFF;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20PX;
+    font-size: smaller;
+}
+/*enigme*/
+#ENIGME1{
+    position: relative;
+    float: left;
+    bottom: 180px;
+    left: -100px;
+    width: 900px;
+    height: 130vh;
+    background-image: url(Panthère/Pantherenigme1.png);
+    background-position: left;
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+.VALEUR1{
+    position: relative;
+    float: right;
+    right: -420px;
+    top: 300px;
+    width: 650px;
+    height: 80vh;
+    background-image: url(Panthère/Pantherenigme2.png);
+    background-position: right;
+    background-size: 100%;
+    object-fit: contain;
+}
+#ELLE {
+    text-transform: uppercase;
+}
+#elle1{
+    position: relative;
+    top: 50px;
+    right: -50px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid transparent;
+    text-align: justify;
+    padding: 60px;
+    font-size: 12px;
+}
+#ENIGME2{
+    position: relative;
+    top: 100px;
+}
+q{
+    color: #FFFFFF;
+    position: relative;
+    top: 600px;
+    left: -750px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+.VALEUR2{
+    width: 500px;
+    text-align: justify;
+    position: relative;
+    font-size: 14px;
+    border: 1px solid transparent;
+    padding: 20px;
+    left: 125px;
+    bottom: 50px;
+}
+.VALEUR3{
+    color: #FFFFFF;
+    position: relative;
+    left: 150px;
+}
+#reponse{
+    width: 280px;
+    height: 56px;
+    border:  1px solid #FFFFFF;
+    border-radius: 38px;
+    background: transparent;
+    padding-left: 20px;
+}
+button{
+    width: 174px;
+    height: 54px;
+    border: 1px solid #FFFFFF;
+    border-radius: 38px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.VALEUR4{
+    background-image: url(Panthère/Pantherenigme2.png);
+    background-position: right;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 800px;
+    height: 50vh;
+    right: -500px;
+    bottom: 300px;
+    object-fit: contain;
+}
+#TU{
+    width: 400px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: center;
+    font-size: 11px;
+    position:absolute; 
+    right: 20px;
+}
+/*acceuil*/
+.icon03{
+    display: flex;
+    flex-direction: column;
+    border: 2px  solid #FFFFFF;
+    border-bottom: none;
+    border-right: none;
+    width: 12px;
+    height: 380px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+#facebook,#instagram,#twitter,#tiktok{
+    width: 130%;
+    position: relative;
+    top: 250px;
+    left: 8px;
+    margin-top: 15px;
+    
+}
+.BLACK{
+    position: relative;
+    bottom: 320px;
+    left: 120px;
+    width: 350px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    color: #FFFFFF;
+    font-size: small;
+}
+.BLACK1{
+width: 75%;
+height: 500px;
+    position: relative;
+ bottom: 720px;
+ float: right;
+ right: -180px;
+}
+
+.BLACK2{
+    position: relative;
+    bottom: 200px;
+    background-color: #021740;
+    height: 260px;
+    margin-left: 150px;
+}
+.B1{
+    width: 20%;
+    height: 200px;
+     position: relative;
+     bottom: 550px;
+     left: 10px;
+
+}
+#Pantherhome2{
+    width: 295px;
+    height: 354px;
+}
+#Pantherhome2:hover{
+width: 386px;
+height: 446px;
+}
+#text1{
+    position: relative;
+    width: 200px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    line-height: 1rem;
+    font-size: small;
+    left: 270px;
+    bottom: 450px;
+}
+.B2{
+    position: relative;
+    width: 13%;
+    height: 330px;
+    left: 550px;
+    bottom: 704px;
+}
+h3{
+    color: #9E91B7;
+}
+#text2{
+    position: relative;
+    width: 200px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    line-height: 1rem;
+    font-size: small;
+    bottom: 1040px;
+    left: 670px;
+
+}
+.B3{
+    width: 20.5%;
+    position: relative;
+    bottom: 1283px;
+    left: 952px;
+    height: 329px;
+    z-index: 2;
+}
+#lien{
+    position: relative;
+    border: 1px solid #07338C;
+    border-radius: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    background-color: #07338C;
+    z-index: 1;
+    bottom: 130px;
+    left: 150px;
+}
+#lien:hover{
+    font-weight: bolder;
+}
+.contextmenu1{
+    position: relative;
+    width: 450px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    bottom: 150px;
+    left: 150px;
+
+}
+h4{
+    color: #9E91B7;
+}
+.contextmenu2{
+    position: relative;
+    width: 450px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    bottom: 220px;
+    left: 150px;
+}
+h5{
+    color: #9E91B7;
+}
+.contextmenu3{
+    position: relative;
+    width: 450px;
+    border: 1px solid transparent;
+    padding: 60px;
+    text-align: justify;
+    bottom: 300px;
+    left: 150px;
+}
+.contextmenu4{
+    position: relative;
+    float: right;
+    right: 120px;
+    bottom: 1500px;
+     border:  1px solid #FFFFFF; 
+     width: 400px;
+     height: 600px;
+     background-color: #FFFFFF;
+     border-radius: 10px;
+     font-size: small;
+}
+#Pantherhome5{
+    position: relative;
+    bottom: 190px;
+    left: 15px;
+    width: 374px;
+    height: 527px;
+}
+#Pantherhome5:hover{
+    width:450px;
+    height: 634px;
+}
+h6{
+    font-size: 22px;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+
+}
+strong{
+    color: #021740;
+}
+em{
+    position: relative;
+    color: #3D2DA6;
+    bottom: 150px;
+    left: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: justify;
+}
+#VA1{
+    color: #FFFFFF;
+    background: #3D2DA6;
+    border-radius: 8px;
+    border: 1px solid #3D2DA6;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+    
+}
+#Pantherhome6{
+    position: relative;
+    float: right;
+     right: -280px;
+    bottom: 800px;
+
+}
+.contextmenu6{
+    position: relative;
+    bottom: 300px;
+    background: url(Panthère/Pantherhome7.png);
+    background-size: 100%;
+    height: 100vh;
+}
+#form1{
+    align-content: center;
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    background-color: #9E91B7;
+    width: 600px;
+    height: 550px;
+}
+#formulaire{
+    color: #07338C;
+}
+#form{
+    color: #021740;
+}
+input{
+    
+    color: #07338C;
+    border: 1px solid #07338C;
+    border-radius: 28px;
+    background-color: transparent;
+    width: 520px;
+    height: 56px;
+
+}
+::placeholder{
+    color: #07338C;
+    position: relative;
+    left: 25px;
+}
+textarea{
+    width: 520px;
+    height: 120px;
+    border: 1px solid #07338C;
+    border-radius: 28px;
+    background-color: transparent;
+}
+button{
+    color: #07338C;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: all 2s;
+}
+#CONTACT:hover{
+border: 1px solid #021740;
+box-shadow: 20px; 
+overflow-y: 0;
+overflow-x: 0;
+}
+#en1:hover{
+border: 1px solid #F2CEF2;
+box-shadow:20px;
+overflow-y: 0;
+overflow-x: 0;
+}
+#FORCE2{
+    height: 80vh;
+    position: relative;
+    bottom: 200px;
+}
+.PAGEp2{
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+
+}
+.iconp2{
+    position: relative;
+    left: 820px;
+    bottom: 270px;
+}
+.FOOp2{
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+    color: #FFFFFF;
+}
+#voir1{
+    color: #FFFFFF;
+}
+#voir2{
+    color: #FFFFFF;
+}
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+   .message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+   }
+
+@keyframes buttons {
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.slide{
+    position: relative;
+    bottom: 600px;
+    min-width: 120px;
+    border: 1px solid transparent;
+    display: flex;
+    overflow-x: auto;
+}
+.slide .B{
+    width: 500px;
+    height: 250px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #07338C;
+} 
+.tire{
+    
+    position: relative;
+    bottom: 720px;
+    left: 450px;
+}
+.Pantherhome1{
+    width: 50%;
+    height: 300px;
+}
+h1:hover
+,h2:hover{
+animation: textzoom 5s linear;
+}
+@keyframes textzoom {
+    0%{font-size: 36px;}
+    100%{font-size: 46px;}
+}
+img:hover{
+ zoom: 20%;
+}
+.logo_{
+    position: relative;
+    bottom: 100px;
+    left: 250px;
+
+
+}
